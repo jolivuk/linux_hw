@@ -1,0 +1,12 @@
+   0 date +"%D" > /home/homework3.txt
+   1 df -h
+   2 df -h /
+   3 df -h / | tail +1 >>/home/homework3.txt
+   4 cat /proc/cpuinfo | grep 'vendor_id' 
+   5 cat /proc/cpuinfo | grep 'vendor_id' >> /home/homework3.txt
+   6 vi /home/homework3.txt
+   7 cat /home/homework3.txt
+   8 ps -ef | grep -wv PID | wc -l >> /home/homework3.txt
+   9 cat /home/homework3.txt
+  10 export_file /home/homework3.txt
+  11 history > history.txt
